@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D8A6E"
+    tools:context=".ui.activities.EditStateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#FADDA1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:orientation="vertical"
+            app:spanCount="1"
+            android:id="@+id/list_edit"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

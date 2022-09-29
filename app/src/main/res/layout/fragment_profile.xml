@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6D8A6E"
+    tools:context=".ui.fragments.profile.ProfileFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Данные"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/enter_fio"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:hint="Ввдеите имя"
+                android:background="@android:color/transparent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/enter_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Введите телефон"
+                android:paddingLeft="10dp"
+                android:inputType="phone"
+                android:background="@android:color/transparent" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/enter_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="Введите почту"
+                android:background="@android:color/transparent" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Сохранить"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/button_save"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/rounder"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

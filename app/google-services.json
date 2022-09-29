@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "555314054168",
+    "firebase_url": "https://oils-a4bfd-default-rtdb.firebaseio.com",
+    "project_id": "oils-a4bfd",
+    "storage_bucket": "oils-a4bfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555314054168:android:c97c4c90460139baf36f6d",
+        "android_client_info": {
+          "package_name": "com.company.oils"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555314054168-dp6pedo0m0plko50m1rr26j5vebfqdui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.oils",
+            "certificate_hash": "25609ff5b0229fdb9938dcac047852287481bfa0"
+          }
+        },
+        {
+          "client_id": "555314054168-nvcpd6jl5fg8e88ts5vrdr6a8190n5ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC94EdWW92ADKJ-E_2kLm0dctYbMnQuGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555314054168-nvcpd6jl5fg8e88ts5vrdr6a8190n5ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
